@@ -1,0 +1,16 @@
+{
+  "name": "voweltrace-workspace",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "postinstall": "node scripts/setup.mjs",
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/frontend.mjs build",
+    "test": "node scripts/test.mjs"
+  }
+}
